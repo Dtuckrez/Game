@@ -1,0 +1,11 @@
+    Image backDrop;
+    
+    TestPlayerShip playerShip;
+    EnemyShip[] enemyShip = new EnemyShip[8];
+    Nifty gui;
+    SoundDevice soundDevice;
+    SlickRenderDevice renderDevice;
+    InputSystem inputSystem;
+    TimeProvider timeProvider;
+            playerShip = new TestPlayerShip("src/openspace/Config/Ships/Default/testShip.txt");
+            backDrop = new Image("src/openspace/Images/Sectors/Backdrops/0.png");
